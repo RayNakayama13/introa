@@ -1,16 +1,17 @@
 <script>
     
+    var Twitter=prompt("tweet whatever you want")
     
-    var firstname=prompt("please enter your fisrt name.");
-    var lastname=prompt("please enter your last name.")
-    var favoritefood=prompt("please enter your favorite food");
+    var x = Twitter.length 
     
-    
-    console.log("Hello," + " " + firstname+ " " + lastname);
-    console.log("l can eat" + " " + favoritefood + " " + "forver");
-    
-    var x= firstname.length;
-    
-    console.log(3 * x);
-    
+    if (x <= 140){
+       console.log( 140 - x )
+    }
+ else 
+     {  
+     console.log("Tweet is too long")
+     }
+
+
+
 </script>
