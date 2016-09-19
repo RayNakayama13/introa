@@ -1,0 +1,34 @@
+<script>
+    
+    //x= (sugar in food/recommended sugar) * 100
+    
+        var Gender= prompt("Are you man or woman?")
+    
+    if (Gender.length === 3){
+        
+        function Nutritionlabels(recoSugar) {
+        
+        var sugarinfood= prompt("how much sugar is in the food?");
+        var PerDay= sugarinfood/recoSugar;       
+            
+        console.log("You took " + Math.round(PerDay*100, 2)+ "% of the sugar today");
+        alert("You took " + PerDay*100 + "% of the sugar today");
+        }
+        Nutritionlabels(38);
+    }
+    else{
+        
+        function Nutritionlabels(recoSugar) {
+        
+        var sugarinfood= prompt("how much sugar is in the food?");
+        var PerDay= sugarinfood/recoSugar       
+        
+        console.log("You took " + PerDay*100 + "% of the sugar today");
+        alert("You took " + PerDay*100 + "% of the sugar today");
+        }
+        Nutritionlabels(25);
+    }
+
+</script>
+
+
