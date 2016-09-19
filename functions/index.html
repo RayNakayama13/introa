@@ -6,25 +6,25 @@
     
     if (Gender.length === 3){
         
-        function Nutritionlabels(recoSugar) {
+        function Nutritionlabels(RecommendedSugarForMan) {
         
-        var sugarinfood= prompt("how much sugar is in the food?");
-        var PerDay= sugarinfood/recoSugar;       
+        var SugarInFood= prompt("how much sugar is in the food?");
+        var PercentOfSugar= SugarInFood/RecommendedSugarForMan;       
             
-        console.log("You took " + Math.round(PerDay*100, 2)+ "% of the sugar today");
-        alert("You took " + PerDay*100 + "% of the sugar today");
+        console.log("You took " + Math.round(PercentOfSugar*100, 2)+ "% of the sugar today");
+        alert("You took " + PercentOfSugar*100 + "% of the sugar today");
         }
         Nutritionlabels(38);
     }
     else{
         
-        function Nutritionlabels(recoSugar) {
+        function Nutritionlabels(RecommendedSugarForWoman) {
         
-        var sugarinfood= prompt("how much sugar is in the food?");
-        var PerDay= sugarinfood/recoSugar       
+        var SugarInFood= prompt("how much sugar is in the food?");
+        var PercentOfSugar= SugarInFood/RecommendedSugarForWoman;
         
-        console.log("You took " + PerDay*100 + "% of the sugar today");
-        alert("You took " + PerDay*100 + "% of the sugar today");
+        console.log("You took " + PercentOfSugar*100 + "% of the sugar today");
+        alert("You took " + PercentOfSugar*100 + "% of the sugar today");
         }
         Nutritionlabels(25);
     }
