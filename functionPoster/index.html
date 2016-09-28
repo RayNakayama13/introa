@@ -3,16 +3,16 @@
     var cost = 24.52;
         alert("For total, $ " + cost);
     
-    var spend = prompt("How much do you spend?" + "(cost $24.52)" );
+    var payment = prompt("How much will you pay?" + "(cost $24.52)" );
     
     
-    if (spend >= cost ) {    
+    if (payment >= cost ) {    
         
-        MoneyChange( spend - cost );
+        MoneyChange( payment - cost );
     
     }else{
         
-        var Remainder = (cost - spend) 
+        var Remainder = (cost - payment) 
         
         console.log("You still need " + "$"+ Remainder)
         alert("You still need " + "$"+ Remainder)
