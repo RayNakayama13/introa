@@ -1,0 +1,71 @@
+<script>
+    
+    var cost = 24.52;
+        alert("For total, $ " + cost);
+    
+    var spend = prompt("How much do you spend?" + "(cost $24.52)" );
+    
+    
+    if (spend >= cost ) {    
+        
+        MoneyChange( spend - cost );
+    
+    }else{
+        
+        var Remainder = (cost - spend) 
+        
+        console.log("You still need " + "$"+ Remainder)
+        alert("You still need " + "$"+ Remainder)
+    }
+    
+    
+    
+        function MoneyChange(change){
+
+        var HundredDollar = (change/ 100);
+            console.log( "One Hundred-Dollar Bill * " + Math.floor(HundredDollar));
+            var change100   = (change % 100);
+            
+        var FiftyDollar   = (change100 / 50 );
+            console.log( "Fifty-Dollar Bill       * " + Math.floor(FiftyDollar));
+            var change50   = (change100 % 50);
+        
+        var TwentyDollar  = (change50 / 20);
+            console.log( "Twenty-Dollar Bill      * " + Math.floor(TwentyDollar));
+            var change20   = (change50 % 20);
+        
+        var TenDollar     = (change20 / 10);
+            console.log( "Ten-Dollar Bill         * " + Math.floor(TenDollar));
+            var change10  = (change20 % 10); 
+            
+        var FiveDollar    = (change10 / 5);
+            console.log( "Five-Dollar Bill        * " + Math.floor(FiveDollar));
+            var change5   = (change10 % 5);
+                
+        var OneDollar     = (change5 / 1);
+            console.log( "One Dollar Bill         * "+ Math.floor(OneDollar));
+            var change1   = (change  % 1); 
+
+        var Quarters      = (change1 / 0.25);
+            console.log( "Quarter                 * " + Math.floor(Quarters) );
+            var changeQ   = (change1 % 0.25);
+
+        var Dimes         = (changeQ / 0,1);
+            console.log( "Dime                    * " + Math.floor(Dimes) );
+            var changeD   = (changeQ % 0.25);
+
+        var Nickels       = (changeD / 0.05);
+            console.log("Nickel                  * " + Math.floor(Nickels) );
+            var changeN   = (changeD % 0.05);
+
+        var Pennies       = (changeN / 0.01)
+            console.log("Pennies                 * "+ Math.floor(Pennies) );
+
+        }
+    
+
+    
+
+    
+
+</script>
