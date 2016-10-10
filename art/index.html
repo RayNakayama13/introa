@@ -1,0 +1,93 @@
+<html>
+<head> </head>
+<body>
+<canvas id="myCanvas" width="675" height="500"></canvas>
+<script>
+    
+    var width= "675";
+    var height= "500";
+    var c =document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    
+    
+    // left square 
+    ctx.beginPath();
+    ctx.lineWidth="1";
+    ctx.fillStyle= "#573C27";
+    ctx.fillRect( width*0.22,height*0.02,(height*0.48-5),(height*0.48-5) );
+    ctx.stroke();
+    
+    
+    var StartingPointX =width*0.22;
+    var StartingPointY =height*0.02;
+    
+    //canvas
+    ctx.beginPath();
+    ctx.lineWidth="0.5";
+    ctx.rect(0,0,675,500);
+    ctx.stroke();
+    
+    // line in the middle
+    ctx.beginPath();
+    ctx.fillStyle = "#FBBC0C"
+    ctx.fillRect(0.05*width, (height*0.5)-5,(width-0.1*width), 10);
+    ctx.stroke();
+    
+    //circle in the left square
+    ctx.beginPath();
+    ctx.fillStyle = "#FFF3CB";
+    ctx.moveTo(width*0.22, height*0.019);
+    ctx.arc(width*0.22,height*0.019,(height*0.48-5)*0.60, 0*Math.PI, 0.5*Math.PI);
+    ctx.fill();
+    ctx.stroke();
+    
+    
+    //right small square
+    ctx.fillStyle="#FB4722";
+    ctx.fillRect(StartingPointX+height*0.48-5, height*1/8,(height*0.5-5-height*1/8),(height*0.5-5-height*1/8));
+    ctx.stroke();
+    
+     //line in the right square
+    ctx.fillStyle="#332214";
+    ctx.fillRect(StartingPointX+(height*0.48-5)+(height*0.5-5-height*1/8)*0.75, height*1/8,10,(height*0.5-5-height*1/8));
+    ctx.stroke();
+    
+    //left down square
+    ctx.fillStyle="#363251";
+    ctx.fillRect(width*0.15, (height*0.5)+5, (height*0.5-5-height*1/8), (height*0.5-5-height*1/8));
+    ctx.stroke();
+    
+    //line in the left down square
+    ctx.fillStyle="#E68E02";
+    ctx.fillRect(width*0.15,(height*0.5)+5+(height*0.5-5-height*1/8)*0.75,(height*0.5-5-height*1/8),20);
+    ctx.stroke();
+    
+    //rectangle in the middle
+    ctx.fillStyle="#2B7133";
+    ctx.fillRect(width*0.15+(height*0.5-5-height*1/8),(height*0.5)+5, width*1/7,(height*0.5-5)*0.9);
+    ctx.stroke();
+    
+    //small square in the midlle
+    ctx.fillStyle="#42385B";
+    ctx.fillRect(width*0.15+(height*0.5-5-height*1/8)+width*(1/7)*(3/5),(height*0.5)+5,width*(1/7)*(2/5),width*(1/7)*(2/5))
+    
+    //right down big square
+    ctx.fillStyle="#FFD5AF";
+    ctx.fillRect(StartingPointX+height*0.48-7, height*0.5+5,width*1/3,width*1/3)
+    ctx.stroke();
+    
+    //small circle in the right square
+    ctx.beginPath();
+    ctx.fillStyle="#663300";
+    ctx.arc(StartingPointX+height*0.48-7+width*1/6, height*0.5+5+width*1/6,30,0*Math.PI,2*Math.PI);
+    ctx.fill();
+    ctx.stroke();
+    
+    
+    
+    
+    
+    
+</script>
+</body>
+</html>
