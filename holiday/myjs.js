@@ -56,12 +56,12 @@ var imageArray = [
       function drawStuff() {
         var data = new google.visualization.arrayToDataTable([
          ['Present', 'Rate'],
-              ['Adidas Pure Control +16 Gold', 20,  ], 
-              ['Adidas Pure Control +16 Black', 20  ],
-              ['Adidas Pure Control +16 Viper', 20  ],
+              ['Adidas Pure Control +16 Gold', 25,  ], 
+              ['Adidas Pure Control +16 Black',30  ],
+              ['Adidas Pure Control +16 Viper',25   ],
               ['Nike Hypervenom Techcraft Black', 20],
-              ['Nike Obra 2 Pure Platinum', 20      ],
-              ['CR7 Mercurial V Green', 20          ]
+              ['Nike Obra 2 Pure Platinum', 30      ],
+              ['CR7 Mercurial V Green', 10          ]
               ]);
 
         var options = {
