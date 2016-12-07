@@ -1,0 +1,62 @@
+body{
+    background-color: #46FF0F  ;
+}
+
+#DecorationWrapper2{
+    width:80%;
+    background-color:#C219FF;
+    margin-left:10%;
+}
+
+.pagewrapper{
+    width: 70%;
+    margin-left: 15%;
+    padding: 20px 20px 20px 20px;
+    background-color:red ;
+}
+
+#photowrapper{
+    width: 90%;  
+    margin-left:5%;
+    background-color: white ; 
+}
+
+#thePhoto{
+    width:100%;    
+}
+
+#forwardBtn{
+    position: relative;
+    float: right;
+}
+button{
+    background: Black;
+    color: white;
+    font-size:20px;
+    height:30px;
+    width:100px;
+    font-stretch: expanded;
+}
+.centerMe{
+    width: 80%;
+    margin-left:20%;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Lobster', cursive;
+}
+
+h1{  
+    color:red;
+}
+h3{
+    color: skyblue;
+}
+h10{
+    color:pink;
+}
+
+top_x_div{
+    margin-left: 15%;
+    width: 80%;
+}
+
+
