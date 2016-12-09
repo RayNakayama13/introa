@@ -1,12 +1,12 @@
 
 var imageArray = [
 "https://i.ytimg.com/vi/1CQ1NzP0zhU/maxresdefault.jpg",
-"http://cdn.soccerbible.com/media/36507/adidas-stellar-ace-img9.jpg",
+"https://cdn.soccerbible.com/media/36507/adidas-stellar-ace-img9.jpg",
 "https://4.bp.blogspot.com/-4KkgQjTGpj0/V6TfeTbzA5I/AAAAAAAA-Us/CcN7Y-dARqI9zLBBUO8Qa3CbkGnreui0gCLcB/s1600/adidas-dark-space-ace-16-purecontrol.jpg",
-"http://www.sportskicksstore.com/wp/wp-content/uploads/2016/09/adidas-ace-16-purecontrol-viper-pack-boots-400x225.jpg",       
+"https://www.sportskicksstore.com/wp/wp-content/uploads/2016/09/adidas-ace-16-purecontrol-viper-pack-boots-400x225.jpg",       
 "https://2.bp.blogspot.com/-ZLQVEi1t08g/WCe-H479cDI/AAAAAAABDPM/2-lpndhWd44Aaz5EWi_Q2aVS7BHJVTXGgCLcB/s738/nike-2016-2017-tech-craft-pack-4.jpg",
 "https://3.bp.blogspot.com/-pt2FrWEt1o4/V5YW6mk4TgI/AAAAAAAA-X8/gIES-bJhm_IVA6NFT0C52jM_o-w5qkwhQCLcB/s1600/nike-magista-obra-2016-2017-lite-pack-boots%2B%25282%2529.jpg",                
-"http://www.sil.lt/media/images/Prekes/Prekiu-foto/Nike-Mercurial/nike-mercurial-superfly-v-cr7-fg-852511-376-mens-soccer-cleats-3.jpg"
+"https://www.sil.lt/media/images/Prekes/Prekiu-foto/Nike-Mercurial/nike-mercurial-superfly-v-cr7-fg-852511-376-mens-soccer-cleats-3.jpg"
 ];
     
     var slideIndex = 1;
