@@ -1,7 +1,7 @@
 with open('input.txt', 'r') as f:
     a = [f.read()]
 
-class FizzBuzzExt():
+class FizzBuzz():
 
     def __init__(self):
         list = [(int(x[0]), x[2:]) for x in a.split('\n')]
