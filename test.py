@@ -5,25 +5,20 @@ class FizzBuzzExt():
 
     def __init__(self):
         list = [(int(x[0]), x[2:]) for x in a.split('\n')]
-            for n in len(list)
-                i = list[n][0]
-                s = list[n][1]
         list.sort()
-        self.m = a.pop()
-        return
-
+        i = []
+        s = []
+        for n in len(list):
+            i.append(list[n][0])
+            s.append(list[n][1])
+        m = a.pop(-1)
+        return i, s, m
 
     def FizzBuzzExt(i, s, m):
         Output = []
-        for i, s in list:
-            while
-            if m%i  == 0:
+        for I in i:
+            if m%I  == 0:
                  Output.append(s)
             else:
-
+                continue
         print(Output)
-
-z = [(1,3),(2,5)]
-for n in len(z):
-    i = z[n][0]
-    s = z[n][1]
